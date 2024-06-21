@@ -4,7 +4,7 @@ const expressWs = require('express-ws')
 const app = express()
 expressWs(app)
 
-const port = process.env.PORT || 5050
+const port = process.env.PORT || 3001
 let connects = []
 
 app.use(express.static('public'))
